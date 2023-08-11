@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-image: linear-gradient(rgb(85, 78, 83), #742663);
+    height: 122vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    background-color: white;
+    height: auto;
+    width: 800px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+    display: flex;
+}
+
+.left {
+    background-image: linear-gradient(rgb(94, 94, 94), #3c3c3d);
+    width: 300px;
+    height: 0%;
+    /* float: left; */
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    width: 450px;
+    /* float: left; */
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-img {
+    height: 180px;
+    width: 150px;
+    background-color: #ddd;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    /* margin-left: 60px; */
+    margin-left: 20px;
+    border: 10px solid rgb(94, 94, 94);
+    box-shadow: 6px 7px 9px 5px rgb(94, 94, 94);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.box-1 {
+    position: relative;
+}
+
+.heading {
+    background-color: black;
+    padding: 10px;
+    color: whitesmoke;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: -15px;
+}
+
+.heading::after {
+    content: '';
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    background-color: black;
+    left: 191px;
+    top: 26px;
+    transform: rotate(56deg);
+    z-index: -1;
+}
+
+.p1 {
+    padding: 9px 10px;
+    font-size: 11px;
+}
+
+.icons1 {
+    font-size: 16px !important;
+    padding-right: 10px !important;
+    vertical-align: sub;
+}
+
+.skill-container {
+    width: 90%;
+    background-color: black;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+
+.html {
+    width: 35%;
+    background-color: white;
+    flex-grow: 1;
+}
+
+.css {
+    width: 20%;
+    background-color: white;
+    flex-grow: 1;
+}
+
+.js {
+    width: 0.5%;
+    background-color: white;
+    flex-grow: 1;
+}
+
+.web {
+    width: 45%;
+    background-color: white;
+    flex-grow: 1;
+}
+
+.gra {
+    width: 70%;
+    background-color: white;
+    flex-grow: 1;
+}
+
+.icons2 {
+    padding: 18px 10px;
+    color: black;
+}
+
+.name-div {
+    padding: 86px 0px 60px 55px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.name-div h1 {
+    margin-bottom: 10px;
+}
+
+.box-2 {
+    padding: 0px 50px;
+    margin-top: 30px;
+}
+
+.p2 {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.icons3 {
+    vertical-align: bottom;
+    font-size: 21px !important;
+    color: black;
+}
+
+.p3 {
+    font-size: 13px;
+    word-spacing: 1px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+}
+
+.p3 span {
+    color: rgb(94, 94, 94);
+    padding-left: 20px;
+}
